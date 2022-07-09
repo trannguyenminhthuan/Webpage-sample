@@ -1,0 +1,14 @@
+body {
+    min-height: 110vh;
+    background: #fff url(//cssanimation.rocks/demo/starwars/images/bg.jpg);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+#footer{
+    position: relative;
+    bottom: 0;
+}
+.main {
+    position: relative;
+}

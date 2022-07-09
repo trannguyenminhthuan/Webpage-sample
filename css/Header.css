@@ -1,0 +1,90 @@
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+/*Deopdown*/
+/* Dropdown Button */
+.Header.dropbtn {
+     font-size: 16px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.Header.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.Header.dropdown-content {
+    opacity: 0.9;
+    display: none;
+    position: absolute;
+    color: #2e2e2e;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.Header.dropdown-content a {
+
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+/* Change navbar styling on scroll */
+.Header.navbar  {
+    background-color: #fff;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Header.navbar  .nav-link {
+    color: #283747;
+}
+
+.Header.navbar  .nav-link:hover,
+.Header.navbar  .nav-link:focus {
+      text-decoration:overline;
+
+}
+
+.Header.navbar  .navbar-brand {
+    color: #283747;
+}
+
+
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+    .Header.navbar {
+        background: #fff;
+    }
+
+    .Header.navbar .navbar-brand, .navbar .nav-link {
+        color: #283747;
+    }
+}
+
+
+
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSES
+* ==========================================
+*
+*/
+.Header.text-small {
+    font-size: 0.9rem !important;
+}
+
+.Header.navbar{
+    height: 70px;
+}

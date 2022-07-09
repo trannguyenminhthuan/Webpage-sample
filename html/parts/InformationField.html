@@ -1,0 +1,73 @@
+<div class="informationDiv" id="informationDiv">
+
+</div>
+<div class="popupoverlay" id="popup0">
+    <form class="popupUpdate" id="popupUpdate">
+        <a class="close" href="#">&times;</a> <br>
+        <h1>Update Form</h1>
+        <ul>
+            <li><p class=" field-split align-left">Name:</p>
+                <p class=" field-split align-right">Id:</p>
+            </li>
+            <li>
+                <input type="text" id="updName" name="updName" class="field-style field-split align-left"
+                       placeholder="Name"/>
+                <input type="email" id="updID" name="updID" class="field-style field-split align-right"
+                       placeholder="ID" readonly/>
+            </li>
+            <li><p>Password:</p>
+            </li>
+            <li>
+                <label for="updPass"></label><input type="text" id="updPass" name="updPass"
+                                                    class="field-style field-full align-none"
+                                                    placeholder="Password"/>
+            </li>
+            <li><p>Email:</p>
+            </li>
+            <li>
+                <label for="updEmail"></label><input type="text" id="updEmail" name="updEmail"
+                                                     class="field-style field-full align-none"
+                                                     placeholder="Email"/>
+            </li>
+            <li>
+                <p>Address:</p>
+            </li>
+            <li>
+                <label for="updAdress"></label><input type="text" id="updAdress" name="updAdress"
+                                                      class="field-style field-full align-none"
+                                                      placeholder="Address"/>
+            </li>
+            <li><p class=" field-split align-left">Registration Date:</p>
+                <p class=" field-split align-right">VISA ID:</p>
+            </li>
+            <li>
+                <label for="visaUpd"></label><input type="text" id="visaUpd" name="visaUpd"
+                                                    class="field-style field-split align-right"
+                                                    placeholder="VisaID"/>
+                <label for="registrationDateUpd"></label><input type="text" id="registrationDateUpd"
+                                                                name="registrationDateUpd"
+                                                                class="field-style field-split align-left"
+                                                                placeholder="Reistration Date"/>
+            </li>
+            <li>
+                <p>Bought Products:</p>
+            </li>
+            <li>
+                <label for="noProductUpd"></label><input type="text" id="noProductUpd" name="noProductUpd"
+                                                         class="field-style field-full align-none"
+                                                         placeholder="noProductUpd" readonly/>
+            </li>
+            <li>
+                <input type="submit" value="Update" onclick="updAPI()"/>
+            </li>
+        </ul>
+    </form>
+</div>
+<div id="popup1" class="popupoverlay">
+    <div class="popup" id="popupContent">
+        <a class="close" href="#">&times;</a> <br>
+        <h>Are you sure to delete this account?</h><br>
+        <button class="delButton" id="delButton" onclick="delAPI(); ">Submit</button>
+    </div>
+</div>
+<script src="../../js/InformationPage.js"></script>
